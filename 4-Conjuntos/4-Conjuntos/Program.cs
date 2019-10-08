@@ -12,7 +12,7 @@ namespace _4_Conjuntos
 
             Console.Write("O curso A possui quantos alunos? ");
             int x = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite os códigos dos alunos do Curso A");
+            Console.WriteLine("Digite os códigos dos alunos do Curso A:");
             for (int i=0; i < x; i++)
             {
                 int valor = int.Parse(Console.ReadLine());
@@ -21,7 +21,7 @@ namespace _4_Conjuntos
 
             Console.Write("O curso B possui quantos alunos? ");
             x = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite os códigos dos alunos do Curso B");
+            Console.WriteLine("Digite os códigos dos alunos do Curso B:");
             for (int i = 0; i < x; i++)
             {
                 int valor = int.Parse(Console.ReadLine());
@@ -30,7 +30,7 @@ namespace _4_Conjuntos
 
             Console.Write("O curso C possui quantos alunos? ");
             x = int.Parse(Console.ReadLine());
-            Console.WriteLine("Digite os códigos dos alunos do Curso C");
+            Console.WriteLine("Digite os códigos dos alunos do Curso C:");
             for (int i = 0; i < x; i++)
             {
                 int valor = int.Parse(Console.ReadLine());
